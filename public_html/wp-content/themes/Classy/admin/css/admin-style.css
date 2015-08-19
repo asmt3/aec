@@ -1,0 +1,196 @@
+.dummy-heading{
+	margin-bottom: 10px !important;
+	padding: 0px !important;
+}
+.classy-message{
+	width: 735px;
+}
+.clear { clear: both }
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    content: ".";
+    clear: both;
+    text-indent: -9999px;
+    height: 0;
+}
+#options-header {
+    position: relative;
+    width: 752px;
+    height: 70px;
+    margin-top: 15px;
+    background: #EEE url(images/options-header.png) repeat-x;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    line-height: 70px;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+#options-header h2 {
+    padding: 0 !important;
+    margin: 0px 0px 0px 70px !important;
+    line-height: 70px;
+}
+#icon-options-general {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+#panel-content {
+    position: relative;
+    width: 752px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    margin-bottom: 30px;
+}
+#wrap-left {
+    float: left;
+    width: 200px;
+}
+#wrap-right {
+    float: left;
+    width: 550px;
+}
+ul.tabs {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+	margin: 0;
+}
+ul.tabs li {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #FFF;
+}
+ul.tabs li a {
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #666;
+    text-shadow: 1px 1px #FFF;
+    display: block;
+    font-size: 12px;
+    padding: 0 20px;
+    outline: none;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+ul.tabs li a:hover {
+    color: #21759B;
+    background-color: #FBFBFB;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover {
+    color: #21759B;
+    background-color: #FFF;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-right: -1px;
+}
+html ul.tabs li.active a { color: #21759B }
+.tab_container {
+    min-height: 500px;
+    border-left: 1px solid #CCC;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 550px;
+    background: #FFF;
+}
+.tab_content {
+    padding: 20px;
+    font-size: 1em;
+}
+.tab_content .ta_description {
+    background: #FAFAFA;
+    border: 1px solid #E6E6E6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 0px 1px;
+    margin-bottom: 30px;
+}
+.tab_content .ta_description span {
+    border-top: 1px solid #FFF;
+    display: block;
+    padding: 10px;
+}
+.tab_content ul li {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.tab_content h3 {
+	color: #444;
+	margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+	font-size: 16px;
+}
+.tab_content h2 {
+    margin-top: 0px;
+    font-weight: bold;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 20px;
+	font-size: 18px;
+}
+.tab_content select, .tab_content input, .tab_content textarea { margin: 10px 0 }
+.tab_content select { text-transform: capitalize }
+.tab_content select, .tab_content input { width: 90%; }
+.tab_content textarea { width: 90%; }
+.tab_content input[type=checkbox] {
+    width: 20px;
+    float: left;
+    margin: 1px 8px 0 0;
+}
+.tab_content label {
+	margin: 10px 0;
+    font-size: 11px;
+    display: block;
+    color: #999;
+    cursor: auto;
+	letter-spacing: 1px;
+}
+.wrap h2 { margin-bottom: 30px }
+.submit-changes {
+    position: absolute;
+    right: 15px;
+    top: -60px;
+}
+small {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-style: italic;
+    color: #000;
+    font-size: 11px;
+}
+input#upload_image_button:hover { cursor: pointer }
+.upload_image_button { cursor: pointer !important }
+.color-preview {
+    position: absolute;
+    height: 5px;
+    width: 230px;
+    left: 0px;
+    top: 54px;
+}
+.color-preview div {
+    height: 100%;
+    width: 100%;
+}
+.upload_image_button { width: 120px !important }
+.tab_content .one_half {
+    width: 50%;
+    float: left;
+    display: block;
+}

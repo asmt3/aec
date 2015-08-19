@@ -1,0 +1,74 @@
+/*-----------------------------------------------------------------------------------*/
+/*    Navigation - Drop Down Menu
+/*-----------------------------------------------------------------------------------*/
+#navigation{border-color:#3c1956; background:#613587 url('../../images/navigation/skins/nav-purple.png') repeat}
+.sf-menu{border-right:1px solid #3c1956;border-left: 1px solid #874eb4;}
+.sf-menu a{color:#fff; text-shadow:0px 1px 0px #000; border-right-color:#874eb4; border-left-color:#3c1956; background:#613587 url('../../images/navigation/skins/nav-purple.png') repeat}
+.sf-menu a:focus, 
+.sf-menu a:hover, 
+.sf-menu a:active, 
+li.sfHover a, 
+.sf-menu ul li.sfHover a, 
+.sf-menu ul li.sfHover li a:hover{color:#FFF; background:#4d256a url('../../images/navigation/skins/nav-purple-hover.png') repeat}
+li.sfHover li a, 
+.sf-menu ul li.sfHover li a{color:#FFF; text-shadow:0px 1px 0px #000; background:#613587 url('../../images/navigation/skins/nav-purple.png') repeat;}
+.sf-menu ul{border:1px solid #3c1956}
+.sf-menu li ul{border-top:1px solid #3c1956}
+.sf-menu li li{}
+.sf-menu ul a{border-top-color:#3c1956}
+
+/*** arrows **/
+.sf-sub-indicator{    background:url('../../images/navigation/nav_down_white.png')}
+.sf-menu ul .sf-sub-indicator{    background:url('../../images/navigation/nav_right_white.png')}
+
+/*navigation icon backgrounds*/
+.navicon-home >a:first-child:before{background-image:url('../../images/icons/home_white.png')}
+.navicon-briefcase >a:first-child:before{background-image:url('../../images/icons/briefcase_white.png')}
+.navicon-image >a:first-child:before{background-image:url('../../images/icons/image_white.png')}
+.navicon-admin >a:first-child:before{background-image:url('../../images/icons/admin_white.png')}
+.navicon-chat >a:first-child:before{background-image:url('../../images/icons/chat_white.png')}
+.navicon-brush >a:first-child:before{background-image:url('../../images/icons/brush_white.png')}
+.navicon-mail >a:first-child:before{background-image:url('../../images/icons/mail_white.png')}
+.navicon-pencil >a:first-child:before{background-image:url('../../images/icons/pencil_white.png')}
+.navicon-preview >a:first-child:before{background-image:url('../../images/icons/preview_white.png')}
+.navicon-download >a:first-child:before{background-image:url('../../images/icons/download_white.png')}
+.navicon-link >a:first-child:before{background-image:url('../../images/icons/link_white.png')}
+.navicon-rss >a:first-child:before{background-image:url('../../images/icons/rss_white.png')}
+.navicon-shoppingcart >a:first-child:before{background-image:url('../../images/icons/shopping_cart_white.png')}
+.navicon-piggybank >a:first-child:before{background-image:url('../../images/icons/piggy_bank_white.png')}
+.navicon-scissors >a:first-child:before{background-image:url('../../images/icons/scissors_white.png')}
+.navicon-help >a:first-child:before{background-image:url('../../images/icons/help_white.png')}
+.navicon-shoppingbasket >a:first-child:before{background-image:url('../../images/icons/shopping_basket_white.png')}
+.navicon-map >a:first-child:before{background-image:url('../../images/icons/map_white.png')}
+.navicon-camera >a:first-child:before{background-image:url('../../images/icons/camera_white.png')}
+.navicon-globe >a:first-child:before{background-image:url('../../images/icons/globe_white.png')}
+.navicon-money >a:first-child:before{background-image:url('../../images/icons/money_white.png')}
+
+/*-----------------------------------------------------------------------------------*/
+/* Slider
+/*-----------------------------------------------------------------------------------*/
+.nivo-caption {background: #4d256a url('../../images/sliders/skins/nivo-caption-purple.png') }
+
+/*-----------------------------------------------------------------------------------*
+/* Pagination
+/*-----------------------------------------------------------------------------------*/
+.page-pagination a:hover,
+.page-pagination .current,
+.slides-js .pagination a:hover,
+.slides-js .pagination li.current a{ background:#4d256a url('../../images/navigation/skins/nav-purple.png') repeat; border-color: #3c1956; }
+
+/*-----------------------------------------------------------------------------------*
+/* Read More
+/*-----------------------------------------------------------------------------------*/
+.home-blog-item .read-more,
+.entry .read-more {background: #4d256a url('../../images/navigation/skins/nav-purple.png') repeat-x; border: 1px solid #3c1956; color: #FFF !important; filter: alpha(opacity=90); -moz-opacity: 0.9; -khtml-opacity: 0.9; opacity: 0.9;}
+.home-blog-item .read-more:hover,
+.entry .read-more:hover{ background: #4d256a url('../../images/navigation/skins/purple-navy.png') repeat-x; filter: alpha(opacity=100); -moz-opacity: 1; -khtml-opacity: 1; opacity: 1; }
+/*-----------------------------------------------------------------------------------*
+/* Pricing Tables
+/*-----------------------------------------------------------------------------------*/
+.pricing-table-wrap h3 {
+	background: #333 url('../../images/navigation/skins/nav-purple.png') repeat-x;
+}
+.pricing-table-button a{background: #4d256a url('../../images/navigation/skins/nav-purple.png') repeat-x; border: 1px solid #3c1956; color: #FFF !important; text-shadow: 1px 1px 1px #000; filter: alpha(opacity=90); -moz-opacity: 0.9; -khtml-opacity: 0.9; opacity: 0.9;}
+.pricing-table-button a:hover{ background: #4d256a url('../../images/navigation/skins/nav-purple.png') repeat-x;filter: alpha(opacity=100); -moz-opacity: 1; -khtml-opacity: 1; opacity: 1; }

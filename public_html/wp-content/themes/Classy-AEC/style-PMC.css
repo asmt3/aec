@@ -1,0 +1,86 @@
+/*
+   style-PMC.css
+   Classy-AEC
+   
+   Created by Alan Thomson on 2012-01-16.
+   Copyright 2012 ProjectMcColl. All rights reserved.
+*/
+
+
+#phone {
+	font-size:24px;
+	top:15px;
+}
+#phone span {
+	color:#555;
+}
+
+#accred {
+   position: absolute;
+   right: 0px;
+   top: 45px;
+   right:10px;
+}
+
+#accred ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#accred ul li {
+	float:left;
+	margin:0;
+	padding:0 0 0 5px;
+}
+
+#search-wrap {
+	margin-top:17px;
+}
+
+#header {
+	height:85px;
+}
+
+#navigation {
+	background:#001255;
+}
+
+.sf-menu {
+	border-color:#001255;
+	margin-left:20px;
+}
+.sf-menu a {
+	font-size:14px;
+	background:#001255;
+	height:auto !important;
+	line-height:32px;
+	border-color:#001255;
+}
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active, li.sfHover a, .sf-menu ul li.sfHover a, .sf-menu ul li.sfHover li a:hover {
+	background:#001255;
+}
+
+#header-logo {margin:5px 0 0;}
+
+#sidebar {margin-top: 60px;}
+
+#footer {display:none;}
+
+
+.service-item {margin-bottom: 30px;}
+
+/* Make all logos stay on the right, even if paras are short */
+.page-id-10 h3 {clear:both}
+
+/* Home */
+#home-services .service-item h3 {font-size:15px;}
+#slider-wrap {position:relative;}
+#slider-telephone-overlay {position:absolute; right:-25px; top:10px; z-index:9999; background:rgba(255, 255, 255, 0.9); padding:20px; font-size:24px; color:#333;}
+
+/* Contact Us */
+.page-id-12 #post p, 
+.page-id-12 #post address,
+.page-id-12 #post label {font-size:15px; line-height: 1.3;}
+
+a {color:#001255;}
+blockquote {border:0;}
