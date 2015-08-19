@@ -1,0 +1,23 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+
+# old pages
+Redirect 301 /contact.asp http://www.aylesfordelectrical.co.uk/contact-us/
+Redirect 301 /about.asp http://www.aylesfordelectrical.co.uk/about-us/
+Redirect 301 /electrical_services.asp http://www.aylesfordelectrical.co.uk/services/
+Redirect 301 /quality_assured_electrician.asp http://www.aylesfordelectrical.co.uk/quality-management/
+
+
+
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
